@@ -1,7 +1,7 @@
 
 # ตรวจสอบ A Reccord จาก DNS Server, โดยปกติแล้ว เครื่องจะใช้ DNS จากที่ ISP ให้มาเวลาเข้าเว็บไซต์ แต่เราสามารถ ถามจาก DNS server ที่อื่นได้ด้วยคำสังด้านล่าง
-dig blocked.com @8.8.8.8
-dig blocked.com @1.1.1.1
-dig blocked.com @203.x.x.x  # DNS ของ ISP
+$dig example.com @8.8.8.8
+$dig example.com @1.1.1.1
+$dig example.com @203.x.x.x  # DNS ของ ISP
 
-  
+
